@@ -134,7 +134,7 @@ $(document).ready(function(){
         $(".h_sec3_md_background").show()
         $(".h_sec3_md_box_img").children("h1").text(md_shirt[num].text)
         $(".h_sec3_md_box_img").find("img").attr("src",md_shirt[num].src)
-        
+        $(".h_sec3_md_box_img").find("div").scrollTop(0)
         console.log(".h_sec3_md_box_img["+num+"]")
     })
 
@@ -146,7 +146,7 @@ $(document).ready(function(){
         $(".h_sec3_md_background").show()
         $(".h_sec3_md_box_img").children("h1").text(md_cap[num].text)
         $(".h_sec3_md_box_img").find("img").attr("src",md_cap[num].src)
-        
+        $(".h_sec3_md_box_img").find("div").scrollTop(0)
         console.log(".h_sec3_md_box_img["+num+"]")
     })
 
@@ -158,7 +158,7 @@ $(document).ready(function(){
         $(".h_sec3_md_background").show()
         $(".h_sec3_md_box_img").children("h1").text(md_towel[num].text)
         $(".h_sec3_md_box_img").find("img").attr("src",md_towel[num].src)
-        
+        $(".h_sec3_md_box_img").find("div").scrollTop(0)
         console.log(".h_sec3_md_box_img["+num+"]")
     })
 
@@ -170,7 +170,7 @@ $(document).ready(function(){
         $(".h_sec3_md_background").show()
         $(".h_sec3_md_box_img").children("h1").text(md_goods[num].text)
         $(".h_sec3_md_box_img").find("img").attr("src",md_goods[num].src)
-        
+        $(".h_sec3_md_box_img").find("div").scrollTop(0)
         console.log(".h_sec3_md_box_img["+num+"]")
     })
 
@@ -183,6 +183,7 @@ $(document).ready(function(){
         $(".h_sec3_md_background").hide()
     })
     
+
 
 
 
