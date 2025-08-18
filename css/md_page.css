@@ -310,7 +310,7 @@
     margin: 0 auto;
     overflow: hidden;
     overflow-y: scroll;
-    text-aline: center;
+    text-align: center;
 }
 .h_sec3_md_box_img img{
     width: 70%; height: auto;
@@ -387,3 +387,4 @@
     }
 
 }
+
